@@ -34,16 +34,16 @@ function runtimer() {
 runtimer();
 
 function getnewhit() {
-  rand = Math.floor(Math.random() * 10);
+  rand = Math.floor(Math.random() * 100);
   document.querySelector("#hitval").textContent = rand;
 }
 
 function increasescore() {
-  score += 10;
+  score += 5;
   document.querySelector("#scoreval").textContent = score;
 }
 function decreasescore() {
-  score -= 10;
+  score -= 5;
   document.querySelector("#scoreval").textContent = score;
 }
 makebubble();
