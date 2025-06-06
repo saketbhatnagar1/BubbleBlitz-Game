@@ -34,7 +34,7 @@ function runtimer() {
 runtimer();
 
 function getnewhit() {
-  rand = Math.floor(Math.random() * 100);
+  rand = Math.floor(Math.random() * 10);
   document.querySelector("#hitval").textContent = rand;
 }
 
